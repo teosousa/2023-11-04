@@ -1,0 +1,57 @@
+function nome(){
+
+    let meuNome = prompt("Qual meu nome?");
+
+alert(meuNome);
+
+}
+nome()
+
+----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="funcoes.js"></script>
+    
+</body>
+</html>
+
+
+-----
+
+function nome(){
+
+    let meuNome = "Teo";
+
+alert(meuNome);
+
+}
+nome()
+
+------
+
+function nome(){
+
+    let meuNome = "Teo";
+
+alert(meuNome);
+
+}
+nome()
+
+function multi5(exibirValor){
+
+alert(exibirValor)
+
+return exibirValor * 5;
+
+}
+
+alert("O valor do numero multiplicado por 5 é" + multi5(60))]
